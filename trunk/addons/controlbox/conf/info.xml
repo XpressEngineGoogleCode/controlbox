@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+	<title xml:lang="ko">ControlBox</title>
+	<title xml:lang="en">ControlBox</title>
+	<description xml:lang="ko">Layout Control Box</description>
+	<description xml:lang="en">Layout Control Box</description>
+	<version>0.2</version>
+	<date>2011-11-16</date>
+	<author email_address="wiley@nurigo.net" link="http://www.nurigo.net">
+		<name xml:lang="ko">wiley</name>
+	</author>
+	<extra_vars>
+		<var name="user_display" type="select">
+            <title xml:lang="ko">회원에게 보이기</title>
+            <title xml:lang="en">Display to member</title>
+            <description xml:lang="ko">회원권한 일때도 컨트롤러가 출력되도록 합니다.</description>
+            <description xml:lang="en">The controller will appear even though logged-in user has a member authority.</description>
+            <options value="N">
+                <title xml:lang="ko">보이지 않음</title>
+                <title xml:lang="en">Not display</title>
+            </options>
+            <options value="Y">
+                <title xml:lang="ko">보이기</title>
+                <title xml:lang="en">Display</title>
+            </options>
+        </var>
+	</extra_vars>
+</addon>
