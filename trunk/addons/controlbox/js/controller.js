@@ -88,7 +88,7 @@ function control_get_vars(htmlObj) {
 					$val = jQuery(jQuery.sprintf('<textarea name="%s">%s</textarea>', name, defval));
 					break;
 				case 'image':
-					var file_html = '<input name="'+name+'" type="file" value="" style="display:none" /><div onclick="jQuery(this).prev().click();" style="cursor:pointer;">Choose File</div>';
+					var file_html = '<input name="'+name+'" type="file" value="" style="display:none" /><div onclick="jQuery(this).prev().click();" style="cursor:pointer;"><span class="filechoose">Choose File</span> <span class="fileplus"></span></div>';
 					if (layout_info[name]) {
 						var image_html = '<div width="80"><img src="'+layout_info[name]+'" style="width:80px;" /></div>';
 					} else {
@@ -136,9 +136,9 @@ function control_process(data) {
 				var hidden_vars = r[1];
 				if (jQuery(g).attr('hidden')!='true') {
 					var title = control_get_lang(jQuery(groups[i]),'title');
-					var closed = '<span class="toggle open">open</span><span class="toggle close" style="display:none;">close</span>';
-					var opened = '<span class="toggle open" style="display:none;">open</span><span class="toggle close" >close</span>';
-					$content.append('<div class="group-title"><span>'+title+'</span><a href="#" class="toggle-group" onclick="return false;">'+(visible_count==0?opened:closed)+'</a></div>');
+					var closed = '<span class="toggle open"></span><span class="toggle close" style="display:none;"></span>';
+					var opened = '<span class="toggle open" style="display:none;"></span><span class="toggle close"></span>';
+					$content.append('<div class="group-title"><span class="title_text">'+title+'</span><a href="#" class="toggle-group" onclick="return false;">'+(visible_count==0?opened:closed)+'</a></div>');
 					if(visible_count>0) $table.css('display','none');
 					$content.append($table);
 					visible_count++;

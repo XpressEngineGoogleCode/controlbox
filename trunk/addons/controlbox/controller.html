@@ -7,7 +7,7 @@
 
 <div class="layout-controller">
 	<a href="#" class="slideout_btn"></a>
-	<h2>Control Box</h2>
+	<h2>CONTRAL BOX <span style="font-size:11px; color:#c3c3c3">by KSO &amp; CAMERON</span></h2>
 	<div class="slideout-content">
 		<form action="{getUrl()}" method="post" enctype="multipart/form-data" target="hidden_iframe" class="content_form">
 			<input type="hidden" name="module" value="layout" />
@@ -59,15 +59,15 @@
 	(function($) {
 		jQuery(function($) {
 			$('.layout-controller').tabSlideOut({
-				tabHandle: '.slideout_btn',                              //class of the element that will be your tab
-				pathToTabImage: '{$addon_path}img/default/left_pop_login.gif',        //path to the image for the tab *required*
-				imageHeight: '32px',                               //height of tab image *required*
-				imageWidth: '32px',                               //width of tab image *required*
-				tabLocation: 'right',                               //side of screen where tab lives, top, right, bottom, or left
-				speed: 300,                                        //speed of animation
-				action: 'click',                                   //options: 'click' or 'hover', action to trigger animation
-				topPos: '140px',                                   //position from the top
-				fixedPosition: true                               //options: true makes it stick(fixed position) on scroll
+				tabHandle: '.slideout_btn',
+				pathToTabImage: '{$addon_path}img/default/left_pop_login.gif',
+				imageWidth: '35px',
+				imageHeight: '43px',
+				tabLocation: 'right',
+				speed: 500,
+				action: 'click',
+				topPos: '140px',
+				fixedPosition: true
 			});
 		});
 	}) (jQuery);

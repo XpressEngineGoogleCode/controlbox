@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon version="0.2">
-	<title xml:lang="ko">ControlBox</title>
-	<title xml:lang="en">ControlBox</title>
-	<description xml:lang="ko">Layout Control Box</description>
-	<description xml:lang="en">Layout Control Box</description>
+	<title xml:lang="ko">Treasurej ControlBox</title>
+	<title xml:lang="en">Treasurej ControlBox</title>
+	<description xml:lang="ko">Treasurej Layout Control Box</description>
+	<description xml:lang="en">Treasurej Layout Control Box</description>
 	<version>0.2</version>
-	<date>2011-11-16</date>
-	<author email_address="wiley@nurigo.net" link="http://www.nurigo.net">
-		<name xml:lang="ko">wiley</name>
+	<date>2011-11-21</date>
+	<author email_address="xepro@naver.com" link="http://www.treasurejcameron.com/">
+		<name xml:lang="ko">KSO and TREASUREJ</name>
 	</author>
 	<extra_vars>
 		<var name="user_display" type="select">
