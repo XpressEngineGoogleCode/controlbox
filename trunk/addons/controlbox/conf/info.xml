@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon version="0.2">
-	<title xml:lang="ko">Treasurej ControlBox</title>
-	<title xml:lang="en">Treasurej ControlBox</title>
-	<description xml:lang="ko">Treasurej Layout Control Box</description>
-	<description xml:lang="en">Treasurej Layout Control Box</description>
+	<title xml:lang="ko">레이아웃 컨트롤박스 애드온</title>
+	<title xml:lang="en">Layout ControlBox Addon</title>
+	<description xml:lang="ko">관리자 페이지에서 저장하지 않고도 보고 있는 레이아웃의 설정을 빠르고 간편하게 저장할 수 있는 애드온입니다.</description>
+	<description xml:lang="en">Layout ControlBox Addon</description>
 	<version>0.2</version>
-	<date>2011-11-21</date>
-	<author email_address="xepro@naver.com" link="http://www.treasurejcameron.com/">
+	<date>2011-11-27</date>
+	<author email_address="wiley@nurigo.net" link="http://www.nurigo.net/">
 		<name xml:lang="ko">KSO and TREASUREJ</name>
 	</author>
 	<extra_vars>
