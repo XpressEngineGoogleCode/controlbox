@@ -2,11 +2,15 @@
 <addon version="0.2">
 	<title xml:lang="ko">레이아웃 컨트롤박스 애드온</title>
 	<title xml:lang="en">Layout ControlBox Addon</title>
-	<description xml:lang="ko">관리자 페이지에서 저장하지 않고도 보고 있는 레이아웃의 설정을 빠르고 간편하게 저장할 수 있는 애드온입니다.</description>
+	<description xml:lang="ko">
+		KSO와 TREASUREJ가 공동 개발한 레이아웃 컨트롤박스 애드온입니다.
+		레이아웃을 손쉽게 설정하고 저장할 수 있도록 도와줍니다.
+		관리자화면으로 들어가서 레이아웃설정을 해야 하는 번거러움 없이 현재 보고 있는 화면의 레이아웃을 설정하고 바로 저장할 수 있습니다.
+	</description>
 	<description xml:lang="en">Layout ControlBox Addon</description>
 	<version>0.3</version>
-	<date>2011-11-29</date>
-	<author email_address="wiley@nurigo.net" link="http://www.nurigo.net/">
+	<date>2011-11-30</date>
+	<author email_address="xepro@naver.com" link="http://www.treasurejcameron.com/">
 		<name xml:lang="ko">KSO and TREASUREJ</name>
 	</author>
 	<extra_vars>
