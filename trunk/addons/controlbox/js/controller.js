@@ -88,7 +88,7 @@ function control_get_vars(htmlObj) {
 					$val = jQuery(jQuery.sprintf('<textarea name="%s">%s</textarea>', name, defval));
 					break;
 				case 'image':
-					var file_html = '<input name="'+name+'" type="file" value="" style="display:none" /><div onclick="jQuery(this).prev().click();" style="cursor:pointer;"><span class="filechoose">Choose File</span> <span class="fileplus"></span></div>';
+					var file_html = '<input name="'+name+'" type="file" value="" style="display:none" /><div onclick="jQuery(this).prev().show().click();" style="cursor:pointer;"><span class="filechoose">Choose File</span> <span class="fileplus"></span></div>';
 					if (layout_info[name]) {
 						var image_html = '<div width="80"><img src="'+layout_info[name]+'" style="width:80px;" /></div>';
 					} else {
