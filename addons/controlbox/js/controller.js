@@ -1,12 +1,14 @@
-/*!
- * Layout Control Script
- * http://www.ksodesign.com/
+/*
+ * Control Box Script
  * http://www.nurigo.net/
+ * http://www.xecameron.com/
  *
  * Copyright 2011, Wiley Choi
+ * Copyright 2012, Jinhwa Ko
  *
  * vi:set sw=4 ts=4 noexpandtab fileencoding=utf-8:
- */
+*/
+
 function control_get_lang($f, name) {
 	var text = '';
 	$f.find('>'+name).each(function() {
@@ -138,7 +140,7 @@ function control_process(data) {
 					var title = control_get_lang(jQuery(groups[i]),'title');
 					var closed = '<span class="toggle open"></span><span class="toggle close" style="display:none;"></span>';
 					var opened = '<span class="toggle open" style="display:none;"></span><span class="toggle close"></span>';
-					$content.append('<div class="group-title"><span class="title_text">'+title+'</span><a href="#" class="toggle-group" onclick="return false;">'+(visible_count==0?opened:closed)+'</a></div>');
+					$content.append('<div class="group-title"><a onclick="jQuery(this).next().click();"><span class="title_text">'+title+'</span></a><a href="#" class="toggle-group" onclick="return false;">'+(visible_count==0?opened:closed)+'</a></div>');
 					if(visible_count>0) $table.css('display','none');
 					$content.append($table);
 					visible_count++;
