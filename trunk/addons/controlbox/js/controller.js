@@ -7,7 +7,7 @@
  * Copyright 2012, Jinhwa Ko
  *
  * vi:set sw=4 ts=4 noexpandtab fileencoding=utf-8:
-*/
+ */
 
 function control_get_lang($f, name) {
 	var text = '';

@@ -1,4 +1,4 @@
-/**
+/*
  * sprintf and vsprintf for jQuery
  * somewhat based on http://jan.moesen.nu/code/javascript/sprintf-and-printf-in-javascript/
  * 
@@ -16,6 +16,7 @@
  * @license http://www.gnu.org/licenses/gpl.html 
  * @project jquery.sprintf
  */
+
 (function($){
 	var formats = {
 		'b': function(val) {return parseInt(val, 10).toString(2);},

@@ -3,15 +3,16 @@
 	<title xml:lang="ko">레이아웃 컨트롤박스 애드온</title>
 	<title xml:lang="en">Layout ControlBox Addon</title>
 	<description xml:lang="ko">
-		KSO와 TREASUREJ가 공동 개발한 레이아웃 컨트롤박스 애드온입니다.
+		레이아웃 컨트롤박스 애드온입니다.
 		레이아웃을 손쉽게 설정하고 저장할 수 있도록 도와줍니다.
 		관리자화면으로 들어가서 레이아웃설정을 해야 하는 번거러움 없이 현재 보고 있는 화면의 레이아웃을 설정하고 바로 저장할 수 있습니다.
+		Treasurej와 Extrative, Wiley가 공동 개발하였습니다.
 	</description>
-	<description xml:lang="en">Layout ControlBox Addon</description>
-	<version>0.3</version>
-	<date>2011-11-30</date>
-	<author email_address="xepro@naver.com" link="http://www.treasurejcameron.com/">
-		<name xml:lang="ko">KSO and TREASUREJ</name>
+	<description xml:lang="en">Layout Control Box Addon by Treasurej, Wiley, Extrative</description>
+	<version>1.0</version>
+	<date>2012-03-17</date>
+	<author email_address="xepro@naver.com" link="http://www.xecameron.com/">
+		<name xml:lang="ko">Treasurej, Extrative, Wiley</name>
 	</author>
 	<extra_vars>
 		<var name="user_display" type="select">
