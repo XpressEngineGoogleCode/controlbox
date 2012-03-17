@@ -10,8 +10,10 @@
 	<description xml:lang="en">Layout Control Box Addon by Treasurej, Wiley, Extrative</description>
 	<version>1.0</version>
 	<date>2012-03-17</date>
-	<author email_address="xepro@naver.com" link="http://www.xecameron.com/">
-		<name xml:lang="ko">Treasurej, Extrative, Wiley</name>
+	<link>http://www.xecameron.com</link>
+	<author email_address="xepro@naver.com" link="http://www.xecameron.com">
+		<name xml:lang="ko">Treasurej</name>
+		<name xml:lang="en">Treasurej</name>
 	</author>
 	<extra_vars>
 		<var name="user_display" type="select">
