@@ -3,9 +3,8 @@
 	<title xml:lang="ko">레이아웃 컨트롤박스 애드온</title>
 	<title xml:lang="en">Layout ControlBox Addon</title>
 	<description xml:lang="ko">
-		레이아웃 컨트롤박스 애드온입니다.
-		레이아웃을 손쉽게 설정하고 저장할 수 있도록 도와줍니다.
-		관리자화면으로 들어가서 레이아웃설정을 해야 하는 번거러움 없이 현재 보고 있는 화면의 레이아웃을 설정하고 바로 저장할 수 있습니다.
+		레이아웃 설정을 편리하게 할 수 있도록 도와주는 기능입니다.
+		관리자페이지에 들어가지 않고도 현재 보고 있는 화면의 레이아웃 설정을 변경하고 저장할 수 있습니다.
 		Treasurej와 Extrative, Wiley가 공동 개발하였습니다.
 	</description>
 	<description xml:lang="en">Layout Control Box Addon by Treasurej, Wiley, Extrative</description>
@@ -16,17 +15,17 @@
 	</author>
 	<extra_vars>
 		<var name="user_display" type="select">
-            <title xml:lang="ko">회원에게 보이기</title>
-            <title xml:lang="en">Display to member</title>
-            <description xml:lang="ko">회원권한 일때도 컨트롤러가 출력되도록 합니다.</description>
-            <description xml:lang="en">The controller will appear even though logged-in user has a member authority.</description>
+            <title xml:lang="ko">보이기</title>
+            <title xml:lang="en">Display</title>
+            <description xml:lang="ko">관리자만 보이기 / 항상 보이기</description>
+            <description xml:lang="en">Only Administrator / All</description>
             <options value="N">
-                <title xml:lang="ko">보이지 않음</title>
-                <title xml:lang="en">Not display</title>
+                <title xml:lang="ko">관리자만 보이기</title>
+                <title xml:lang="en">Administrator</title>
             </options>
             <options value="Y">
-                <title xml:lang="ko">보이기</title>
-                <title xml:lang="en">Display</title>
+                <title xml:lang="ko">항상 보이기</title>
+                <title xml:lang="en">All</title>
             </options>
         </var>
 	</extra_vars>
